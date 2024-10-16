@@ -1,0 +1,32 @@
+/* Place your CSS styles in this file */
+body {background-color: lightpink;
+border: 5px solid red;
+border-radius: 15px;
+
+}
+
+h1 {
+    
+    text-align: center;
+    font-family: "Times New Roman", sans-serif;
+    font-weight: normal;
+    color: blueviolet;
+    
+}
+
+ul {List-style-type:none;
+color:blueviolet ; 
+background-color:seagreen;
+font-size: large;
+padding-right: 20px
+;
+    
+}
+li {display:inline;
+padding-inline: 20px;
+padding-right: 35px;
+}
+
+img {display:block;
+    margin:auto; 
+    }
