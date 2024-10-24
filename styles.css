@@ -73,6 +73,7 @@ section{
     color: #b2519a;
  transition: 0.4s cubic-bezier(0.68,-0.55,0.265,1.55);
  transform: translateY(-30px);
+}
 
 .home .content span{
     font-size: 3.5rem;
@@ -109,5 +110,5 @@ footer{
  text-align: left;
  font-size: 22px;
  padding: 30px 0;
- ;
+ 
 }
