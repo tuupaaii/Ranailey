@@ -87,18 +87,19 @@ section{
     padding: 1rem 0;
     line-height: 1.5;}
 
-    .heading{
+  .heading{
         text-align: left;
         font-size: 4rem;
         color: #333;
         padding: 1rem;
         margin: 2rem 0;
-        background: rgb(221, 176, 236);
+        background: rgb(182, 162, 255);
     }
 
     .about{
-    background-color:plum
+    background-color:rgb(240, 196, 240)
     }
+    
 
 footer{
  background-color: rgb(88, 88, 163);
