@@ -1,32 +1,96 @@
 /* Place your CSS styles in this file */
-body {background-color: lightpink;
-border: 5px solid red;
-border-radius: 15px;
+
+*, html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+nav{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+nav ul{
+    display: flex;
+    gap: 6rem;
+    list-style: none;
+   
+}
+
+nav div img{
+    max-width: 70px;
+}
+
+nav ul li a{
+    text-decoration: none;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: #191919;
+     font-weight: 600;
+     padding: 8px 0;
+     transition: all;
+     transition-duration: 300ms;
+     border-bottom: 1px  pink rgba(0, 0, 0, 0);
+}
+
+nav ul li a:hover{
+    color:pink;
+    border-bottom: 1px solid pink;
+}
+
+section{
+    padding: 2rem 9%;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background:url(bg1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.home .content{
+    max-width: 40rem;
 
 }
 
-h1 {
-    
-    text-align: center;
-    font-family: "Times New Roman", sans-serif;
-    font-weight: normal;
-    color: blueviolet;
-    
+.home .content h3{
+    font-size: 7rem;
+    color: #b2519a;
 }
 
-ul {List-style-type:none;
-color:blueviolet ; 
-background-color:seagreen;
-font-size: large;
-padding-right: 20px
-;
-    
-}
-li {display:inline;
-padding-inline: 20px;
-padding-right: 35px;
+.home .content span{
+    font-size: 3.5rem;
+    color:palevioletred;
+    padding: 1rem 0;
+    line-height: 1.5;
 }
 
-img {display:block;
-    margin:auto; 
+.home .content p{
+    font-size: 1.5rem;
+    color:#000000;
+    padding: 1rem 0;
+    line-height: 1.5;}
+
+    .heading{
+        text-align: left;
+        font-size: 4rem;
+        color: #333;
+        padding: 1rem;
+        margin: 2rem 0;
+        background: rgb(221, 176, 236);
     }
+
+    .about{
+    background-color:plum
+    }
+
