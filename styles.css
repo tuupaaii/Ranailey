@@ -65,14 +65,17 @@ section{
 
 .home .content h3{
     font-size: 7rem;
-    color: #b2519a;
-    cursor: pointer;
+    color:#5050da;
+   cursor: pointer;
+   ;
+
 }
 
 .home .content h3:hover{
     color: #b2519a;
  transition: 0.4s cubic-bezier(0.68,-0.55,0.265,1.55);
  transform: translateY(-30px);
+ 
 }
 
 .home .content span{
@@ -80,6 +83,7 @@ section{
     color:palevioletred;
     padding: 1rem 0;
     line-height: 1.5;
+    
 }
 
 .home .content p{
@@ -88,7 +92,7 @@ section{
     padding: 1rem 0;
     line-height: 1.5;}
 
-  .heading{
+    .heading{
         text-align: left;
         font-size: 4rem;
         color: #333;
@@ -100,7 +104,6 @@ section{
     .about{
     background-color:rgb(240, 196, 240)
     }
-    
 
 footer{
  background-color: rgb(88, 88, 163);
@@ -110,5 +113,5 @@ footer{
  text-align: left;
  font-size: 22px;
  padding: 30px 0;
- 
+ ;
 }
