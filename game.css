@@ -1,0 +1,183 @@
+/* RESET & BASIC STYLE */
+*, html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* === NAVIGATION BAR === */
+nav {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+nav ul {
+    display: flex;
+    gap: 6rem;
+    list-style: none;
+}
+
+nav div img {
+    max-width: 70px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #191919;
+    font-weight: 600;
+    padding: 8px 0;
+    transition: all 0.3s ease;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+
+nav ul li a:hover {
+    color: pink;
+    border-bottom: 1px solid pink;
+}
+
+/* === HOMEPAGE CONTENT SECTION === */
+section {
+    padding: 2rem 9%;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(bg1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .content {
+    max-width: 40rem;
+}
+
+.home .content h3 {
+    font-size: 7rem;
+    color: #5050da;
+    cursor: pointer;
+}
+
+.home .content h3:hover {
+    color: #b2519a;
+    transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transform: translateY(-30px);
+}
+
+.home .content span {
+    font-size: 3.5rem;
+    color: palevioletred;
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+
+.home .content p {
+    font-size: 1.5rem;
+    color: #000000;
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+
+.heading {
+    text-align: left;
+    font-size: 4rem;
+    color: #333;
+    padding: 1rem;
+    margin: 2rem 0;
+    background: rgb(182, 162, 255);
+}
+
+.about {
+    background-color: rgb(240, 196, 240);
+}
+
+/* === FOOTER === */
+footer {
+    background-color: rgb(88, 88, 163);
+    color: palevioletred;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    font-size: 22px;
+    padding: 30px 0;
+}
+
+/* === GAME STYLING (NutriCheck) === */
+.container {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px 30px;
+    background-color: lavender;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+    text-align: center;
+    color: darkolivegreen;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.container h2, .container h3 {
+    text-align: center;
+    color: darkslategrey;
+    font-size: 30px;
+}
+
+.container label {
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+    color: olive;
+    font-size: 28px;
+}
+
+.container select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 1px solid darkslategray;
+    background-color: whitesmoke;
+    font-size: 23px;
+}
+
+.container button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-top: 30px;
+    background-color: whitesmoke;
+    color: darkolivegreen;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.container button:hover {
+    background-color: ghostwhite;
+}
+
+#hasil {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: darkslategrey;
+}
