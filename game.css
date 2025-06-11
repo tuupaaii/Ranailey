@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #EDB4E2;
+    background-color: #3F3A87;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-margin: 0;
     padding: 0;
@@ -120,7 +120,7 @@ footer {
     max-width: 1000px;
     margin: 40px auto;
     padding: 20px 30px;
-    background-color: #3F3A87;
+    background-color: #FFFAE6;
     border-radius: 20px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
     flex: 1;
