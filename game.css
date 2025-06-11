@@ -6,8 +6,9 @@
 }
 
 body {
-    background-color: #939D7A;
+    background-color: #E1C1C6;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-
     margin: 0;
     padding: 0;
     color: #333;
@@ -119,21 +120,21 @@ footer {
     max-width: 700px;
     margin: 40px auto;
     padding: 20px 30px;
-    background-color: #F8DCD9;
+    background-color: #516345;
     border-radius: 20px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
 .container h1 {
     text-align: center;
-    color: darkolivegreen;
+    color: #E8E2D4;
     font-size: 45px;
     margin-bottom: 10px;
 }
 
 .container h2, .container h3 {
     text-align: center;
-    color: darkslategrey;
+    color: #FFFAE6;
     font-size: 30px;
 }
 
@@ -141,7 +142,7 @@ footer {
     display: block;
     margin-top: 20px;
     font-weight: bold;
-    color: olive;
+    color: #FFFAE6;
     font-size: 28px;
 }
 
